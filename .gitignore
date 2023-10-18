@@ -1,0 +1,7 @@
+*.csv
+*.pb
+*.pyc
+*.index
+*.DS_STORE
+*.stats
+*variables.data-00000-of-00001
