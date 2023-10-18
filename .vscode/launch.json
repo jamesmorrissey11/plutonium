@@ -9,7 +9,7 @@
             "cwd": "/Users/jamesmorrissey/Github/plutonium/src",
             "console": "integratedTerminal",
             "args": [
-                "--data_dir", "/Users/jamesmorrissey/Github/plutonium/data",
+                "--data_dir", "/Users/jamesmorrissey/Github/plutonium/data/threat_model",
             ]
         },
     ]
