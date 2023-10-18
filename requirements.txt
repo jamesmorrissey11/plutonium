@@ -1,0 +1,9 @@
+boto3==1.28.65
+botocore==1.31.65
+colorlog==6.7.0
+langchain==0.0.316
+pandas==2.1.1
+pinecone==0.1.0
+scikit_learn==1.3.1
+tenacity==8.2.3
+tiktoken==0.5.1
