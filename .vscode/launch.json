@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "IT Threat",
+            "type": "python",
+            "request": "launch",
+            "program": "/Users/jamesmorrissey/Github/plutonium/src/it/main.py",
+            "cwd": "/Users/jamesmorrissey/Github/plutonium/src",
+            "console": "integratedTerminal",
+            "args": [
+                "--data_dir", "/Users/jamesmorrissey/Github/plutonium/data",
+            ]
+        },
+    ]
+}
