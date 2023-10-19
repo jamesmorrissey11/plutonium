@@ -5,12 +5,23 @@
             "name": "IT Threat",
             "type": "python",
             "request": "launch",
-            "program": "/Users/jamesmorrissey/Github/plutonium/src/it/main.py",
+            "program": "/Users/jamesmorrissey/Github/plutonium/examples/it/main.py",
             "cwd": "/Users/jamesmorrissey/Github/plutonium/src",
             "console": "integratedTerminal",
             "args": [
                 "--data_dir", "/Users/jamesmorrissey/Github/plutonium/data/threat_model",
             ]
         },
+        {
+            "name": "Hybrid Search",
+            "type": "python",
+            "request": "launch",
+            "program": "/Users/jamesmorrissey/Github/plutonium/examples/hybrid_search/main.py",
+            "cwd": "/Users/jamesmorrissey/Github/plutonium/examples/hybrid_search",
+            "console": "integratedTerminal",
+            "args": [
+                "--query", "Can clinicians use the PHQ-9 to assess depression in people with vision loss?",
+            ]
+        }
     ]
 }
