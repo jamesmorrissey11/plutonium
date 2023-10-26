@@ -4,8 +4,8 @@ import pinecone
 
 
 def init_pinecone_connection():
-    api_key = os.getenv("PINECONE_API_KEY") or "YOUR_API_KEY"
-    env = os.getenv("PINECONE_ENVIRONMENT") or "YOUR_ENVIRONMENT"
+    api_key = os.getenv("PINECONE_API_KEY")
+    env = os.getenv("PINECONE_ENVIRONMENT")
     pinecone.init(api_key=api_key, environment=env)
 
 
