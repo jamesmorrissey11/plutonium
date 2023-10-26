@@ -22,6 +22,14 @@
             "args": [
                 "--query", "Can clinicians use the PHQ-9 to assess depression in people with vision loss?",
             ]
+        },
+        {
+            "name": "IT New",
+            "type": "python",
+            "request": "launch",
+            "program": "/Users/jamesmorrissey/Github/plutonium/examples/it_new/main.py",
+            "cwd": "/Users/jamesmorrissey/Github/plutonium/examples/it_new",
+            "console": "integratedTerminal",
         }
     ]
 }
